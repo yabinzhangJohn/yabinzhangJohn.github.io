@@ -11,169 +11,202 @@
   <link rel="stylesheet" href="./personal_page/bootstrap.css">
   <link rel="stylesheet" href="./personal_page/prettify.css">
   <link rel="stylesheet" href="./personal_page/style.css">
+  <link rel="stylesheet" href="./personal_page/skeleton.css">
+  <link rel="stylesheet" href="./personal_page/layout.css">
   
   <link rel="shortcut icon" href="./personal_page/math.png">
 	
 </head>
+
+
 <body>
-	<div class="container">
-	<nav>
-		<span>
-			<h1 id="logo" style="text-align:left;">
-		      <a href="./personal_page/yabinzhang3.JPG" target="_blank">
-		          <img src="./personal_page/yabinzhang3.JPG" width="180" class="with_border">
-		      </a> <hr> <p align="left">Yabin ZHANG</p>
-		      
-			</h1>
-			<hr>
-			<h4>
-				<a href="http://www.ntu.edu.sg/Pages/index.aspx">School of Computer Engineering, Nanyang Technological University</a>
-			</h4>
-		</span>
-	<nav>
-	</div>
 
-	<hr>
-	<div class="container" id="education">
-	    <h3>Education</h3>
-	    <ul class="square">
-	      <li>2013.8 - <em>current</em>, <strong>Pursuing Ph.D. in Computer Engineering</strong>.  Supervisor: <a href="http://www3.ntu.edu.sg/home/wslin/">Weisi Lin</a> <br>
-	          School Of Computer Science and Engineering, Nanyang Technological University, Singapre.
-	      </li>
-	      <li>2009.9-2013.7, <strong>Bachelor in Electronic Information Engeering</strong><br>
-	          Honors School, Harbin Institute of Technology, China.</li>
-	    </ul>
-	</div>
+  <!-- Primary Page Layout
+================================================== -->
+  <div class="container">
 
-	<hr>
-        <div class="container" id="publications">
-            <h3>Publications</h3>
+    <!-- Sidebar -->
+    <div class="three columns sidebar">
+      <nav>
+          <h4 id="logo" style="text-align:right;">
+              <a href="./index.html" >
+                  <img src="./personal_page/yabinzhang3.JPG" width="180" class="with_border">
+              </a> <br> <br>
+              <a href="http://yabinzhangjohn.github.io">Yabin ZHANG</a>
+          </h4>
+          <p align="right">
+            <a href="http://scse.ntu.edu.sg/Pages/Home.aspx">SCSE, </a>
+            <a href="http://www.ntu.edu.sg/Pages/index.aspx">NTU</a>
+            Singapore
+          </p>
+          <hr>
+          <ul style="text-align:right;">
+            <li><a href="http://yabinzhangjohn.github.io/#education">Education</a></li>
+            <li><a href="http://yabinzhangjohn.github.io/#publications">Publications</a></li>
+            <li><a href="http://yabinzhangjohn.github.io/#resources">Resources</a></li>
+            <li><a href="http://yabinzhangjohn.github.io/#professional_service">Service</a></li>
+            <li><a href="http://yabinzhangjohn.github.io/#contact">Contact</a></li>
+            <li>&nbsp;</li>
+          </ul>
+      <nav>
+    </div>
+
+    <!-- Content -->
+    <div class="twelve columns offset-by-half content">
+    	<!-- <div class="container">
+    	<nav>
+    			<h1 id="logo" style="text-align:left;">
+    		      <a href="./personal_page/yabinzhang3.JPG" target="_blank">
+    		          <img src="./personal_page/yabinzhang3.JPG" width="180" class="with_border">
+    		      </a> <hr> <p align="left">Yabin ZHANG</p>
+    		      
+    			</h1>
+    			<hr>
+    			<h4>
+    				<a href="http://www.ntu.edu.sg/Pages/index.aspx">School of Computer Engineering, Nanyang Technological University</a>
+    			</h4>
+    	<nav>
+    	</div> -->
+
+    	<div class="container" id="education">
+    	    <h3>Education</h3>
+    	    <ul class="square">
+    	      <li>2013.8 - <em>current</em>, <strong>Pursuing Ph.D. in Computer Engineering</strong>.  Supervisor: <a href="http://www3.ntu.edu.sg/home/wslin/">Weisi Lin</a> <br>
+    	          School Of Computer Science and Engineering, Nanyang Technological University, Singapre.
+    	      </li>
+    	      <li>2009.9-2013.7, <strong>Bachelor in Electronic Information Engeering</strong><br>
+    	          Honors School, Harbin Institute of Technology, China.</li>
+    	    </ul>
+    	</div>
+
+    	<hr>
+      <div class="container" id="publications">
+        <h3>Publications</h3>
             <h4>&nbsp Journal</h4>
-            <ol>
-              <li>
-                <strong>Multiple-Level Feature Based Metric for Retargeted Image Quality.</strong><br>
-                Yabin Zhang, Weisi Lin, Qiaohong Li, Wentao Cheng, Xinfeng Zhang. <br>
-                Transaction on Image Processing (TIP). <em>Under Review</em>. 2016. 
-              </li>
-              <li>
-                <strong>Backward Registration-Based Aspect Ratio Similarity for Image Retargeting Quality Assessment.</strong><br>
-                Yabin Zhang, Yuming Fang, Weisi Lin, Xinfeng Zhang, Leida Li. <br>
-                Transaction on Image Processing (TIP), vol. 25, no. 9, pp. 4286 - 4297, 2016.
-                [<a href="./personal_page/ARS_TIP_2016.pdf">pdf</a>]
-                [<a href="https://github.com/yabinzhangJohn/ARS_TIP2016">Matlab code</a>]
-              </li>
-              <li>
-                <strong>Sparse Representation-Based Image Quality Index With Adaptive Sub-Dictionaries.</strong><br>
-                Leida Li, Hao Cai, Yabin Zhang, Weisi Lin, Alex Kot, Xingming Sun. <br>
-                Transaction on Image Processing (TIP), vol. 25, no. 8, pp. 3775 - 3786, 2016. 
-                
-              </li>
-          </ol>
+              <ol>
+                  <li>
+                    <strong>Multiple-Level Feature Based Metric for Retargeted Image Quality.</strong><br>
+                    Yabin Zhang, Weisi Lin, Qiaohong Li, Wentao Cheng, Xinfeng Zhang. <br>
+                    Transaction on Image Processing (TIP). <em>Under Review</em>. 2016. 
+                  </li>
+                  <li>
+                    <strong>Backward Registration-Based Aspect Ratio Similarity for Image Retargeting Quality Assessment.</strong><br>
+                    Yabin Zhang, Yuming Fang, Weisi Lin, Xinfeng Zhang, Leida Li. <br>
+                    Transaction on Image Processing (TIP), vol. 25, no. 9, pp. 4286 - 4297, 2016.
+                    [<a href="./personal_page/ARS_TIP_2016.pdf">pdf</a>]
+                    [<a href="https://github.com/yabinzhangJohn/ARS_TIP2016">Matlab code</a>]
+                  </li>
+                  <li>
+                    <strong>Sparse Representation-Based Image Quality Index With Adaptive Sub-Dictionaries.</strong><br>
+                    Leida Li, Hao Cai, Yabin Zhang, Weisi Lin, Alex Kot, Xingming Sun. <br>
+                    Transaction on Image Processing (TIP), vol. 25, no. 8, pp. 3775 - 3786, 2016. 
+                    
+                  </li>
+              </ol>
 
-          <h4>&nbsp Conference</h4>  
-            <ol>
-              <li>
-                <strong>Quality assessment for image super-resolution based on energy change and texture variation.</strong><br>
-                Yuming Fang, Jiaying Liu, Yabin Zhang,  Weisi Lin,  Zongming Guo. <br>
-                ICIP 2016: 2057-2061
-              </li>
-              <li>                
-                <strong>Aspect Ratio Similarity (ARS) for Image Retargeting Quality Assessment.</strong><br>
-                Yabin Zhang, Weisi Lin, Xinfeng Zhang, Yuming Fang, Leida Li. <br>
-                ICASSP 2016: 1080-1084. [<a href="./personal_page/IRQA_ars_2016_icassp.pdf">pdf</a>] 
-                
-              </li>
+              <h4>&nbsp Conference</h4>  
+                <ol>
+                  <li>
+                    <strong>Quality assessment for image super-resolution based on energy change and texture variation.</strong><br>
+                    Yuming Fang, Jiaying Liu, Yabin Zhang,  Weisi Lin,  Zongming Guo. <br>
+                    ICIP 2016: 2057-2061
+                  </li>
+                  <li>                
+                    <strong>Aspect Ratio Similarity (ARS) for Image Retargeting Quality Assessment.</strong><br>
+                    Yabin Zhang, Weisi Lin, Xinfeng Zhang, Yuming Fang, Leida Li. <br>
+                    ICASSP 2016: 1080-1084. [<a href="./personal_page/IRQA_ars_2016_icassp.pdf">pdf</a>] 
+                    
+                  </li>
 
-              <li>
-                <strong>Dense Correspondence Based Prediction for Image Set Compression.</strong> <br>
-                Yabin Zhang, Weisi Lin, and Jianfei Cai. <br>
-                ICASSP 2015: 1240-1244.</em>
-                
-              </li>   
-            </ol>
-        </div>
+                  <li>
+                    <strong>Dense Correspondence Based Prediction for Image Set Compression.</strong> <br>
+                    Yabin Zhang, Weisi Lin, and Jianfei Cai. <br>
+                    ICASSP 2015: 1240-1244.</em>
+                    
+                  </li>   
+                </ol>
+            </div>
 
-    <hr>
-        <div class="container" id="Code">
-            <h3>Code</h3>
+      <hr>
+      <div class="container" id="resources">
+        <h3>Resources</h3>
+          <h4>&nbsp;&nbsp;Code</h4>
             <ul class="square">
-
               <li>
                 <strong>SNS Matlab</strong>: A matlab implementation of "Optimized Scale-and-Stretch for Image Resizing" by  <a href="http://graphics.csie.ncku.edu.tw/Image_Resizing/">Yu-Shuen Wang</a>. [<a href="https://github.com/yabinzhangJohn/SNS_matlab">Matlab code</a>]
-              </li>
-              
-               
-            </ul>
-        </div>
+              </li>  
+            </ul>        
+          <h4>&nbsp;&nbsp;Links</h4>
+              <ul class="square">
+                <li>
+                  <strong><a href="http://people.csail.mit.edu/mrub/retargetme/">MIT RetargetMe Database</a></strong>: A benchmark database for image retargeting subjective quality database (paired comparison) [2010]. 
+                </li>
+                <li>
+                  <strong><a href="http://ivp.ee.cuhk.edu.hk/projects/demo/retargeting/index.html">CUHK IRQA Database</a></strong>: A image retargeting subjective quality database (5-category scale rating) [2012].
+                </li> 
+              </ul>
+      </div>
 
-    <hr>
-        <div class="container" id="Resources">
-            <h3>Resources</h3>
-            <ul class="square">
+      <hr>
+      <div class="container" id="professional_service">
+        <h3>Professional service</h3>
 
-              <li>
-                <strong><a href="http://people.csail.mit.edu/mrub/retargetme/">MIT RetargetMe Database</a></strong>: A benchmark database for image retargeting subjective quality database (paired comparison) [2010]. 
-              </li>
-              <li>
-                <strong><a href="http://ivp.ee.cuhk.edu.hk/projects/demo/retargeting/index.html">CUHK IRQA Database</a></strong>: A image retargeting subjective quality database (5-category scale rating) [2012].
-              </li>
-               
-            </ul>
-        </div>
+          <h4>&nbsp;&nbsp;Reviewer</h4>     
+          <ul class="square">
+            <li>
+              IEEE trans on Image Processing
+            </li>
+            <li>
+              ICIP, ICASSP, QoMEX
+            </li>
+          </ul>
+          
+          <h4>&nbsp;&nbsp;Teaching assistant</h4>
+          <ul class="square">
+            <li>
+              CE2003: DIGITAL SYSTEMS DESIGN (NTU 2016 course)
+            </li>
+            <li>
+              CE1005: Digital Logic (NTU 2016 course)
+            </li>
+          </ul>
+      </div>
 
-    <hr>
-        <div class="container" id="Professional_service">
-            <h3>Professional service</h3>
+    	<hr>
+      <div class="container" id="contact">
+        <h3>Contact</h3>
+        <table>
+        <tr>
+            <td style="text-align:right;"><strong>Address</strong></td>
+            <td><ul class="disc"> Rapid-Rich Object Search (<a href="http://rose.ntu.edu.sg/Pages/Home.aspx">ROSE</a>) Lab, 
+    			Level 4, BorderX Block, 
+    			Research Techno Plaza, 
+    			50 Nanyang Drive, 
+    			Singapore <em>637553</em>
+    			</ul>
+    		</td>
+        </tr>
+        <tbody><tr>
+            <td style="text-align:right;"><strong>Email</strong></td>
+            <td><ul class="disc">
+                zhan0398 AT e DOT  ntu DOT edu DOT sg
+            </ul></td>
+        </tr>
 
-            <h4>&nbsp Reviewer</h4>     
-            <ul class="square">
-              <li>
-                IEEE trans on Image Processing
-              </li>
-              <li>
-                ICIP, ICASSP, QoMEX
-              </li>
-            </ul>
-            
-            <h4>&nbsp Teaching assistant</h4>
-            <ul class="square">
-              <li>
-                CE2003: DIGITAL SYSTEMS DESIGN (NTU 2016 course)
-              </li>
-              <li>
-                CE1005: Digital Logic (NTU 2016 course)
-              </li>
-            </ul>
-        </div>
+    	  </tbody>
+    	  </table>
+    	</div>
 
-	<hr>
-    <div class="container" id="contact">
-    <h3>Contact</h3>
-    <table>
-    <tr>
-        <td style="text-align:right;"><strong>Address</strong></td>
-        <td><ul class="disc"> Rapid-Rich Object Search (<a href="http://rose.ntu.edu.sg/Pages/Home.aspx">ROSE</a>) Lab, 
-			Level 4, BorderX Block, 
-			Research Techno Plaza, 
-			50 Nanyang Drive, 
-			Singapore <em>637553</em>
-			</ul>
-		</td>
-    </tr>
-    <tbody><tr>
-        <td style="text-align:right;"><strong>Email</strong></td>
-        <td><ul class="disc">
-            zhan0398 AT e DOT  ntu DOT edu DOT sg
-        </ul></td>
-    </tr>
+      <footer class="eleven center-column">
+            <hr class="large"><p>Last update on 2016-12-12.</p>
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=hDUt&d=y-MsupkIOZu92dAcmTXvu1vGT5Bpqm6O1CrEdAqhFaQ"></script>
+        </footer>
+      </div><!-- Content -->
 
-	  </tbody>
-	  </table>
-	</div>
+  </div><!-- container -->
 
-    <footer class="eleven center-column">
-        <hr class="large"><p>Last update on 2016-05-12.</p>
-        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=hDUt&d=y-MsupkIOZu92dAcmTXvu1vGT5Bpqm6O1CrEdAqhFaQ"></script>
-    </footer>
+<!-- End Document
+================================================== -->
+
 </body>
 </html>
